@@ -2,7 +2,7 @@
 #Link: https://leetcode.com/problems/add-binary/
 
 class Solution:
-    def binary_to_decimal(self, binary)
+    def binary_to_decimal(self, binary):
         decimal = 0
         power = 0
         
@@ -13,7 +13,7 @@ class Solution:
             
         return decimal
 
-    def decimal_to_binary(self, num) 
+    def decimal_to_binary(self, num):
         if num == 0:
             return "0"
         
@@ -24,7 +24,7 @@ class Solution:
             
         return result
 
-    def addBinary(self,a,b)
+    def addBinary(self,a,b):
         dec_a = self.binary_to_decimal(a)
         dec_b = self.binary_to_decimal(b)
         
