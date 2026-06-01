@@ -1,3 +1,6 @@
+#For problem number 67 on leetcode.
+#Link: https://leetcode.com/problems/add-binary/
+
 class Solution:
     def binary_to_decimal(self, binary)
         decimal = 0
